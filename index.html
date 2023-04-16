@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Codificador e Decodificador de Texto</title>
+
+		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="icon" href="img/Vector.svg">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="logo-container">
+			  <img src="img/Vector.svg" class="logo" alt="Logo da Alura.">
+			  
+			</div>
+			<h1> Alura Decoder</h1>
+			<button class="dark-mode-toggle">Tema Escuro</button>			
+			
+		</header>	
+
+		<main>
+			<section class="input-output-container">
+			  <div class="input-text">
+          <div class="container-title">
+            <h2 id="inputTitle" class="input-title">codificado</h2>
+            <button id="copy-input" class="copy-button">Copiar</button>
+          </div>
+				<textarea id="input" placeholder="Digite seu texto aqui..."></textarea>
+			  </div>
+			  <button id="trocar" class="trocar"> ⇄ </button>
+			  <div class="output-text">
+          <div class="container-title">
+            <h2 id="outputTitle" class="output-title">decodificado</h2>
+            <button id="copy-output" class="copy-button">Copiar</button>
+          </div>
+          <textarea id="output" class="editable" placeholder="Tradução"></textarea>
+			  </div>
+			</section>
+			<section class="instrucao">
+			  <div class="icon-container">
+				<img src="img/!.svg" alt="Ponto de exclamação." />
+			  </div>
+			  <h3>Apenas letras minúsculas e sem acento.</h3>
+			</section>
+		</main>
+
+		<footer>
+			<ul>
+				<li>2023 - Alan Almeida</li>
+				<li><a href="https://github.com/4lan4lmeida" target="_blank"><i class="bi bi-github"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/4lan-4lmeida/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+			</ul>	
+		</footer>
+  
+		<script src="js/script.js"></script>
+	</body>
+	
+</html>
