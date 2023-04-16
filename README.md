@@ -36,7 +36,8 @@ O resultado deve ser exibido na tela.
 - Botão que troca os campos do texto criptografado/descriptografado
 - Criptografia e descriptografia simultânea ao digitar o texto;
 - Modo escuro;
-- Scroll no campo de texto caso o texto digitado fique muito grande.
+- Scroll no campo de texto caso o texto digitado fique muito grande;
+- Responsivo.
 
 ## Autor
 <span>Feito por <a href="https://www.linkedin.com/in/4lan-4lmeida/">Alan Almeida </a></span>
